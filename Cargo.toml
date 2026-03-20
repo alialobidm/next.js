@@ -113,7 +113,7 @@ chromiumoxide = { version = "0.5.4", features = [
 ], default-features = false }
 # For matching on errors from chromiumoxide. Keep in
 # sync with chromiumoxide's tungstenite requirement.
-tungstenite = "0.20.1"
+tungstenite = "0.21.0"
 
 # flate2_zlib requires zlib, use flate2_rust
 allsorts = { version = "0.14.0", default-features = false, features = [
@@ -127,7 +127,7 @@ async-compression = { version = "0.3.13", default-features = false, features = [
 ] }
 async-trait = "0.1.64"
 atty = "0.2.14"
-bytes = "1.1.0"
+bytes = "1.11.1"
 chrono = "0.4.23"
 clap = { version = "4.5.2", features = ["derive"] }
 concurrent-queue = "2.5.0"
@@ -206,10 +206,10 @@ tempfile = "3.3.0"
 thread_local = "1.1.8"
 thiserror = "1.0.48"
 tiny-gradient = "0.1.0"
-tokio = "1.25.0"
+tokio = "1.43.1"
 tokio-util = { version = "0.7.11", features = ["io", "rt"] }
 tracing = "0.1.37"
-tracing-subscriber = "0.3.16"
+tracing-subscriber = "0.3.20"
 triomphe = { git = "https://github.com/sokra/triomphe", branch = "sokra/unstable" }
 unicode-segmentation = "1.10.1"
 unsize = "1.1.0"
